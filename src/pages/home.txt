@@ -1,0 +1,157 @@
+import React from 'react';
+import './HomePage.css'; // 确保 CSS 文件路径正确
+import professorImage from '../assets/images/professorImage.jpg';
+import googleScholarIcon from '../assets/images/googleScholar.png';
+import linkedInIcon from '../assets/images/linkedIn.png';
+import orcidIcon from '../assets/images/orcid.png';
+import ssrnIcon from '../assets/images/ssrn.png';
+import RGIcon from '../assets/images/ReaserchGate.png';
+
+const HomePage = () => {
+    return (
+        <div className="home-container">
+            <img src={professorImage} alt="Professor" className="professor-image"/>
+            <h1>Welcome!</h1>
+            <p>
+                Welcome to My Personal Website!
+                I am
+                <a
+                    href="https://www.mgt.tum.de/center-for-digital-transformation/prof-dr-jingui-xie"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > Professor Jingui Xie
+                </a>,
+                currently holding the esteemed position of W3 Professor at the
+                <a
+                    href="https://www.mgt.tum.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > Technical University of Munich (TUM) School of Management
+                </a>, a role I have proudly served since June 2020.
+                My academic journey and professional dedication are deeply rooted in
+                <a
+                    href="https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950670367?$ctx=design=ca;lang=en&$scrollTo=toc_overview"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > Business Analytics and Healthcare Management
+                </a>,
+                where I explore the transformative power of data analytics and Queueing Models in enhancing
+                healthcare systems, particularly in contexts like air pollution and the COVID-19 pandemic.
+            </p>
+
+            <p>
+                Since 2020, I have been a part of the esteemed faculty at
+                <a
+                    href="https://www.tum.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > TUM
+                </a>,
+                focusing on integrating predictive
+                information into decision-making through a joint estimation and optimization framework. My interest lies
+                in harnessing big data and analytics to bring about global improvements in healthcare. My academic path includes a Ph.D. from Tsinghua University and notable positions such as a visiting researcher at Cambridge Judge Business School and a tenure at Brunel University London.
+            </p>
+
+            <p>
+                My research projects span various areas, significantly contributing to
+                <a
+                    href="https://www.sciencedirect.com/science/article/pii/S004896972032221X"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > COVID-19 Data Analytics
+                </a>,
+                <a
+                    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3397530"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > ICU Data Analytics
+                </a>,
+                and
+                <a
+                    href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3898"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > Joint Estimation and Optimization
+                </a>.
+                These projects aim to develop data-driven models for efficient healthcare resource allocation and to enhance decision-making processes in critical healthcare settings. My work has been recognized and published in prestigious journals, contributing valuable insights to the healthcare and business analytics fields.
+            </p>
+
+            <p>
+                At the Technical University of Munich, my role as an educator and mentor is as integral as my research. I am deeply committed to nurturing the next generation of
+                <a
+                    href="https://campus.tum.de/tumonline/pl/ui/$ctx;design=pl;header=max;lang=en/wbModHBReport.wbGenHTMLForBeschr?pKnotenNr=1872281&pSemesterNr=192&pLangCode=EN"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                > business analytics and healthcare management professionals
+                </a>. In my teaching, I emphasize a blend of theoretical foundations and practical applications, ensuring that students not only grasp the core concepts but also understand their real-world implications.
+            </p>
+
+            <p>
+                My courses at TUM cover a wide spectrum, ranging from "
+                <a
+                    href="hhttps://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=1687263&pOrgNr=50878"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                >Mathematics in Natural and Economic Science
+                </a>,"
+                 where I lay the groundwork for analytical thinking and problem-solving in a scientific context, to "
+                <a
+                    href="https://campus.tum.de/tumonline/pl/ui/$ctx;design=pl;header=max;lang=en/wbModHBReport.wbGenHTMLForBeschr?pKnotenNr=1872281&pSemesterNr=192&pLangCode=EN"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-link" /* 应用自定义样式 */
+                >Advanced Seminars in Operations & Supply Chain Management
+                </a>."
+                These advanced seminars are particularly close to my heart as they allow me to delve into the intricacies of Business Analytics, demonstrating its pivotal role in optimizing healthcare operations. The practical aspects of these courses often involve case studies, data analysis projects, and interactive discussions, providing students with hands-on experience in tackling real-world challenges.
+            </p>
+            <p>
+                Furthermore, I lead Ph.D. seminars on "Advanced Dynamic Programming," where I guide doctoral candidates through complex mathematical models and algorithms that are fundamental to operations research and business analytics. These seminars are not just about imparting knowledge; they are about fostering a culture of inquiry, innovation, and critical thinking. My goal is to inspire my students to push the boundaries of current knowledge and to contribute meaningfully to their fields of study.
+            </p>
+            <p>
+                In addition to my teaching responsibilities, I am actively involved in mentoring students, providing guidance on research projects, and advising on career development. My approach to mentorship is holistic, focusing not only on academic growth but also on personal and professional development. I take pride in seeing my students flourish and make their mark in the world of business analytics and healthcare management.
+            </p>
+            <p>
+                My dedication to academia and research has been recognized through various awards and honors, a testament to my passion for advancing the fields of Business Analytics and Healthcare Management. These accolades are not just personal achievements; they reflect the collaborative efforts of my students, colleagues, and the broader academic community. Together, we strive to create a better future through the power of data-driven decision-making and innovative healthcare solutions.
+            </p>
+
+
+            {/* 底部的学术平台链接部分 */}
+            <div className="academic-links-container">
+                <p className="follow-text">FOLLOW JINGUIXIE!</p>
+                <div className="academic-links">
+                    <a href="https://scholar.google.com/citations?user=E5UAxjkAAAAJ&hl=en" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src={googleScholarIcon} alt="Google Scholar" className="academic-icon"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jingui-xie-349b7238/?originalSubdomain=de" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src={linkedInIcon} alt="LinkedIn" className="academic-icon"/>
+                    </a>
+                    <a href="https://orcid.org/0000-0003-4100-2339" target="_blank" rel="noopener noreferrer">
+                        <img src={orcidIcon} alt="ORCID" className="academic-icon"/>
+                    </a>
+                    <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4688297" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src={ssrnIcon} alt="SSRN" className="academic-icon"/>
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Jingui-Xie" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src={RGIcon} alt="ResarchGate" className="academic-icon"/>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    );
+};
+
+export default HomePage;

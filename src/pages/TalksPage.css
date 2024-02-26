@@ -1,0 +1,44 @@
+.talking-page {
+    max-width: 800px; /* or your preferred max width */
+    margin: auto; /* centers the content */
+    padding: 20px;
+}
+
+.talking-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.talking-page iframe {
+    width: 100%; /* Responsive width */
+    height: 315px; /* Adjust height as needed */
+    border: none; /* Remove border */
+}
+
+.talking-page h2 {
+    color: #0065bd;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.talking-page a {
+    color: #0065bd; /* Set link color */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+.talking-page a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+.talking-page li {
+    margin-bottom: 20px; /* Adjusts space between list items */
+    line-height: 1.6; /* Increases line height for better readability */
+}
+
+.talking-page li ul {
+    margin-top: 10px; /* Additional space above nested lists */
+}
+
+.talking-page li ul li {
+    margin-bottom: 5px; /* 对于嵌套列表项进一步减小底部外边距 */
+}

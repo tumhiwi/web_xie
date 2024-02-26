@@ -1,0 +1,76 @@
+.teaching-page {
+    max-width: 800px; /* or your preferred max width */
+    margin: auto; /* centers the content */
+    padding: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.teaching-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.teaching-page h2 {
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.position-title {
+    color: #0065bd; /* Set the color to blue */
+}
+
+
+.teaching-page h3 {
+    color:  #0065bd; /* Original color for h3 tags */
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.teaching-page h3.more-courses {
+    color: #0065bd; /* Blue color for the specific h3 tag */
+}
+
+.teaching-page p, .teaching-page li {
+    color: #333; /* Ensures that paragraphs and list items use the #333 color */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Existing styles for links */
+.course-link {
+    color: #0065bd;
+    text-decoration: none;
+}
+
+.course-link:hover {
+    text-decoration: underline;
+}
+
+.research-page ul li a {
+    color: #0065bd;
+    text-decoration: none;
+}
+
+.research-page ul li a:hover {
+    text-decoration: underline;
+}
+
+.university-link {
+    color: #0065bd; /* or another color of your choice */
+    text-decoration: none; /* Removes the underline */
+}
+
+.university-link:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+
+.custom-link {
+    color: #0065bd; /* This sets the link color to the blue shade you specified */
+    text-decoration: none; /* Optional: Removes the underline from the links */
+}
+
+.custom-link:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover for better user experience */
+}
+

@@ -1,0 +1,112 @@
+.team-page {
+    max-width: 800px; /* or your preferred max width */
+    margin: auto; /* centers the content */
+    padding: 20px;
+}
+
+.team-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-page h2 {
+    color: #0065bd;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.team-page .team-member {
+    margin-bottom: 15px;
+}
+
+.team-page .team-member p {
+    font-weight: bold;
+}
+
+.team-page .team-member span {
+    display: block; /* or inline-block, depending on your design */
+}
+
+.team-page p {
+    margin-bottom: 20px;
+}
+
+.team-page .more-info {
+    text-align: center; /* centers the link */
+    margin-top: 50px; /* spacing from the content above */
+}
+
+.team-page .more-info a {
+    color: #0065bd; /* or your preferred link color */
+    text-decoration: none; /* if you don't want the underline */
+    /* additional styling as needed */
+}
+
+.team-page .more-info a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* Style for TUM official website link */
+.tum-website-section a {
+    color: #0000EE; /* traditional blue link color */
+}
+
+.tum-website-section a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* Add your existing styles here */
+
+/* New styles for the doctoral students' section */
+.team-page .doctoral-student {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.team-page .doctoral-student .photo {
+    flex: 0 0 150px; /* Adjust the width as needed */
+    margin-right: 20px;
+}
+
+.team-page .doctoral-student .photo img {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 50%; /* Circular image */
+}
+
+.team-page .doctoral-student .info {
+    flex: 1;
+}
+
+.team-page .doctoral-student .info h3 {
+    font-size: 1.5em; /* Larger font size for the name */
+    font-weight: bold;
+}
+
+.team-page .doctoral-student .info .section {
+    margin-bottom: 10px;
+}
+
+.team-page .doctoral-student .info .section h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Style adjustments for specific sections if needed */
+.team-page .doctoral-student .info .section p {
+    margin: 0;
+}
+
+/* 新增样式 */
+.team-page .doctoral-student .contact-interest-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-page .doctoral-student .contact-info,
+.team-page .doctoral-student .area-of-interest {
+    flex: 1;
+}
+
+
+

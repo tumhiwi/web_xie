@@ -1,0 +1,81 @@
+.publication-page {
+    max-width: 800px; /* or your preferred max width */
+    margin: auto; /* centers the content */
+    padding: 20px;
+}
+
+.publication-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.publication-page h2 {
+    color: #005293;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.publication-page .publication-item {
+    margin-bottom: 15px;
+}
+
+.publication-page .publication-item p {
+    /*font-weight: bold;*/
+}
+
+.publication-page .publication-item span {
+    display: block; /* or inline-block, depending on your design */
+}
+
+.publication-page .publication-item a {
+    color: #0065bd; /* or your preferred link color */
+    text-decoration: none; /* if you don't want the underline */
+    /* additional styling as needed */
+}
+
+.publication-page p {
+    margin-bottom: 20px;
+}
+
+/*以下是链接部分样式*/
+.academic-links-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.below-text{
+    text-align: left;
+    margin: auto;
+}
+
+.academic-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 允许元素在必要时换行 */
+    gap: 50px; /* 图标之间的间距 */
+}
+
+.academic-link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #0065bd; /* 统一链接颜色 */
+}
+
+.academic-link-item:hover {
+    text-decoration: underline;
+}
+
+.academic-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.academic-link-item span {
+    display: block; /* 确保文本在图标下方 */
+    text-align: center; /* 文本居中 */
+}
+

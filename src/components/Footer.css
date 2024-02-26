@@ -1,0 +1,31 @@
+.footer {
+    background-color: #0065bd;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    /* 移除以下样式
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    */
+}
+
+.footer-content {
+    margin: auto;
+    display: block; /* 或者保持 'flex' 如果需要的话 */
+}
+
+.footer h2 {
+    margin: 0 0 10px 0;
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #C2D7EF; /* 链接颜色继承父元素的颜色 */
+    text-decoration: none; /* 移除下划线 */
+}

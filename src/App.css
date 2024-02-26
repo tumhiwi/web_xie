@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+/* 主体和基本字体样式 */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0; /* 添加这个以去掉默认的 margin */
+  display: flex; /* 将 body 设为 flex 容器 */
+  flex-direction: column; /* 子元素按列方向排列 */
+  min-height: 100vh; /* 最小高度为视口高度 */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* 页头 */
+.header {
+  background: #0065bd;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px 0;
+  display: flex; /* 添加flex布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 添加标题到导航栏 */
+.navbar-title {
+  color: #ffffff;
+  font-size: 24px; /* 根据设计调整大小 */
+  flex-grow: 1; /* 允许标题占据额外空间 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 导航栏 */
+.navbar {
+  background-color: #0065bd; /* tum蓝 */
+  padding: 10px 0; /* 上下内边距 */
+  display: flex; /* 使用flex布局 */
+  justify-content: center; /* 水平居中 （已修改，而不是垂直居中）*/
+  width: 100%; /* 撑满整个宽度 */
+}
+
+/* 导航栏内容容器 */
+.navbar-inner {
+  max-width: 1200px; /* 或者与.content的宽度一致 */
+  margin: 0 auto; /* 居中对齐 */
+  width: 100%; /* 确保容器宽度填满导航栏 */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between; /* 确保标题和导航项两侧对齐 */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* 导航标题 */
+.navbar-title {
+  font-size: 30px; /* 根据设计调整 */
+  color: white; /* 文字颜色 */
+  /* 添加右边距来与导航链接分开 */
+  margin-right: 20px; /* 根据需要调整这个值 */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* 导航链接样式 */
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px; /* 或根据视觉设计进行调整 */
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* 页面标题 */
+.page-title {
+  color: #333;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* 内容区域 */
+.content {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+}
+
+/* 段落样式 */
+.content p {
+  margin-bottom: 10px;
+}
+
+/* 页脚 */
+.footer {
+  background: #0065bd;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  /* position: absolute; 移除这个属性 */
+  /* bottom: 0; 移除这个属性 */
+  width: 100%;
+}
+
+/* 媒体查询，用于小屏幕设备 */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding-bottom: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar a {
+    margin-bottom: 10px;
+  }
+
+  .content {
+    width: 95%;
   }
 }
