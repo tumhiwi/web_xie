@@ -9,7 +9,7 @@
 }
 
 .navbar-title {
-    font-size: 30px; /* 或者更大的尺寸，取决于你的偏好 */
+    font-size: 35px !important; /* 或者更大的尺寸，取决于你的偏好 */
     font-weight: bold; /* 如果你想要粗体字 */
     margin-right: auto; /* 将标题推到左边，其他导航项推到右边 */
 }

@@ -12,7 +12,7 @@
 .team-page h2 {
     color: #0065bd;
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .team-page .team-member {
@@ -107,6 +107,51 @@
 .team-page .doctoral-student .area-of-interest {
     flex: 1;
 }
+
+/* 复用doctoral-student样式 */
+.student-assistants-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-assistant {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.student-assistant .photo {
+    flex: 0 0 150px; /* 调整宽度以适应你的设计 */
+    margin-right: 20px;
+}
+
+.student-assistant .photo img {
+    width: 100%; /* 使图片响应式 */
+    border-radius: 50%; /* 圆形图片 */
+}
+
+.student-assistant .info {
+    flex: 1;
+}
+
+.student-assistant .info h3 {
+    font-size: 1.5em; /* 名字的较大字体大小 */
+    font-weight: bold;
+}
+
+.student-assistant .info p {
+    /* 根据需要调整段落样式 */
+}
+
+/* 直接针对.info内的链接应用样式 */
+.team-page .info a {
+    color: #0065bd; /* 设置链接颜色 */
+    text-decoration: none;
+}
+
+.team-page .info a:hover {
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
+
 
 
 

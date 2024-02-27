@@ -4,6 +4,10 @@ import Lou from '../assets/images/ZhiyuanLou.png';
 import Sun from '../assets/images/MaotungSun.png';
 import Zhou from '../assets/images/HanZhou.png';
 import Yang from'../assets/images/NanYang.png';
+import Du from '../assets/images/WeiyuanDu.jpg';
+import Fan from '../assets/images/YichengFan.jpg';
+import Gu from '../assets/images/YutianGu.JPEG';
+import Liu from '../assets/images/Aijia Liu.jpg';
 
 const TeamPage = () => {
     return (
@@ -16,7 +20,6 @@ const TeamPage = () => {
                 reflecting a diverse range of skills and knowledge.</p>
 
             <h2>Current doctoral students</h2>
-            <p></p>
             <div className="doctoral-students-container">
                 <div className="doctoral-student">
                     <div className="photo">
@@ -59,7 +62,8 @@ const TeamPage = () => {
                         <img src={Sun} alt="Maotong Sun"/>
                     </div>
                     <div className="info">
-                        <h3>Maotong Sun</h3>
+                        <h3><a href="https://www.linkedin.com/in/maotong-sun-75b51b12a/?locale=en_US" target="_blank"
+                               rel="noopener noreferrer">Maotong Sun</a></h3>
                         <div className="contact-interest-container">
                             <div className="contact-info">
                                 <h4>CONTACT</h4>
@@ -93,7 +97,8 @@ const TeamPage = () => {
                         <img src={Zhou} alt="Han Zhou"/>
                     </div>
                     <div className="info">
-                        <h3>Han Zhou</h3>
+                        <h3><a href="https://www.linkedin.com/in/han-zhou-71186a144/?originalSubdomain=de"
+                               target="_blank" rel="noopener noreferrer">Han Zhou</a></h3>
                         <div className="contact-interest-container">
                             <div className="contact-info">
                                 <h4>CONTACT</h4>
@@ -160,65 +165,66 @@ const TeamPage = () => {
 
             </div>
 
-            <h2>Doctoral Alumni</h2>
-            <ul>
-                <li>Yongjian Zhu, 2018 – 2023, Assistant Professor at Nanjing University</li>
-                <li>Haji Suleman Ali, 2016 – 2022, Assistant Professor at University of Management and Technology
-                    Lahore
-                </li>
-                <li>Ning Wang, 2016 – 2021, Haitong Securities Co Ltd</li>
-                <li>Yaolei Wang, 2015 – 2020, Associate professor at University of Science and Technology of China</li>
-                <li>Taozeng Zhu, 2014 – 2019, Assistant Professor at Dongbei University of Finance and Economics</li>
-                <li>Yiming Fan, 2013 – 2018, Postdoc Researcher at University of Science and Technology of China</li>
-                <li>Chudhery M.A. Zahid, 2014 – 2018, Associate Professor at University of Science and Technology of
-                    China
-                </li>
-                <li>Runkang Ding, 2014 – 2017, Assistant Professor at Changzhi Medical College</li>
-            </ul>
 
-            <h3>Awards and Honors</h3>
-            <ul>
-                <li>Runkang Ding, National Scholarship for Doctoral Students 2016</li>
-                <li>Fan Yiming, USTC Smart Manufacturing Shunde Scholarship 2017</li>
-                <li>Zhu Taozeng, USTC Smart Manufacturing Shunde Scholarship 2018</li>
-                <li>Wang Yaolei, National Scholarship for Doctoral Students 2019</li>
-                <li>Wang Yaolei, USTC Excellent Doctoral Dissertation Nomination 2021</li>
-                <li>Wang Ning, National Scholarship for Postgraduate Students 2018</li>
-            </ul>
+            <h2>Student Assistants and Tutors</h2>
+            <div className="student-assistants-container">
+                <div className="student-assistant">
+                    <div className="photo">
+                        <img src={Du} alt="Weiyuan Du"/>
+                    </div>
+                    <div className="info">
+                        <h3>Weiyuan Du</h3>
+                        <p>TUM Bachelor of Information Engineering</p>
+                        <p><a href="mailto:weiyuan.du@tum.de">weiyuan.du@tum.de</a></p>
+                        <p>Tutor of Introduction to Python Programming for Data Analytics, maintain the coures exercise
+                            on <a href="https://artemis.ase.in.tum.de"
+                                  target="_blank" rel="noopener noreferrer"> Artemis</a>.</p>
+                    </div>
+                </div>
+            </div>
 
-            <h2>Visiting Doctoral Students</h2>
-            <ul>
-                <li>Mohamed El Habib MESSABIS, Ecole des Mines de Saint Etienne, March 2023 to June 2023, "Robust
-                    capacity planning under crisis," GFA.
-                </li>
-                <li>Ruilu Huang, Central South University, December, 2021 to December, 2022, "machine learning and its
-                    application in healthcare management," CSC.
-                </li>
-                <li>Ye Qiu, Hefei University of Technology, October, 2021 to October, 2022, "online healthcare and
-                    data-driven decision making for healthcare operations," CSC.
-                </li>
-            </ul>
+            <div className="student-assistants-container">
+                <div className="student-assistant">
+                    <div className="photo">
+                        <img src={Fan} alt="Yicheng Fan"/>
+                    </div>
+                    <div className="info">
+                        <h3>Yicheng Fan</h3>
+                        <p>TUM Bachelor in Management and Technology</p>
+                        <p><a href="mailto:yicheng.fan@tum.de">yicheng.fan@tum.de</a></p>
+                        <p>Responsible for tutorial session materials and additional learning support for
+                            Advanced Mathematics course (HN0001).</p>
+                    </div>
+                </div>
+            </div>
 
-            <h2>Master Students and Thesis</h2>
-            <p>2018 - 2021. Han Zhou, Yongjian Zhu.</p>
-            <p>2017 - 2020. Yue Tang, Yan Li, Mairehaba Maimaitiming, Can Muderrisoglu, Arun Bagri.</p>
-            <p>2016 - 2019. Haijun Feng, Jie Teng, Guang Chen.</p>
-            <p>2015 - 2018. Ji Lou, Yue Xia.</p>
-            <p>2014 - 2017. Jiayi Liu, Yunjiao Mao, Lijuan Zhou.</p>
-            <p>2013 - 2016. Panpan Li, Gang Liu, Rongrong Hu, Jiamian Huo.</p>
-            <p>2012 - 2015. Xinyin Zhao.</p>
+            <div className="student-assistants-container">
+                <div className="student-assistant">
+                    <div className="photo">
+                        <img src={Gu} alt="Yutian Gu"/>
+                    </div>
+                    <div className="info">
+                        <h3>Yutian Gu</h3>
+                        <p>Universität Heidelberg Bachelor of Medical Information</p>
+                        <p><a href="mailto:leona.yutian.gu@gmail.com">leona.yutian.gu@gmail.com</a></p>
+                        <p>Assistant in project related literature researching and data processing.</p>
+                    </div>
+                </div>
+            </div>
 
-            <h2>Undergraduate Thesis</h2>
-            <p>2018 Ruiqin Wang, Suting Liu, Zhiyang Zheng, Hanyin Jiang</p>
-            <p>2017 Jiayi Shen, Zhanyue Wang, Mairehaba Maimaitiming</p>
-            <p>2016 Guixia Zhang, Ziyu Liu, Zhengwei Huang</p>
-            <p>2015 Junyi Liu</p>
-            <p>2014 Sean Byrn, visiting student from Lehigh University, summer project: simulation in emergency
-                department.</p>
-
-
-            {/*<h2>Student Assistants and Tutors</h2>*/}
-            {/*<p>Information about student assistants and tutors is not available on the website.</p>*/}
+            <div className="student-assistants-container">
+                <div className="student-assistant">
+                    <div className="photo">
+                        <img src={Liu} alt="Aijia Liu"/>
+                    </div>
+                    <div className="info">
+                        <h3>Aijia Liu</h3>
+                        <p>TUM Bachelor of Information Engineering</p>
+                        <p><a href="mailto:aijia.liu@tum.de">aijia.liu@tum.de</a></p>
+                        <p>Assistant in designing and maintaining the personal website for Prof.Xie.</p>
+                    </div>
+                </div>
+            </div>
 
 
             <h2>More About...</h2>

@@ -29,7 +29,7 @@ const TalksPage = () => {
                 allowFullScreen
             ></iframe>
 
-            <h2>Websites</h2>
+            <h2>Media</h2>
             <ul>
                 <li>
                     <a href="https://www.future-industry.org/ddrm/"  target="_blank">Future Industry Initiative: DDRM </a>
