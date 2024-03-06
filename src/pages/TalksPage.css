@@ -42,3 +42,19 @@
 .talking-page li ul li {
     margin-bottom: 5px; /* 对于嵌套列表项进一步减小底部外边距 */
 }
+
+.pdf-section {
+    text-align: center; /* 居中显示PDF封面和下载链接 */
+    margin: 20px 0; /* 添加一些上下边距 */
+}
+
+.pdf-cover-image {
+    width: 400px; /* 或根据需要调整尺寸 */
+    height: auto; /* 保持图片的宽高比 */
+    margin-bottom: 10px; /* 在图片和文字之间添加一些空间 */
+}
+
+.pdf-section p {
+    color: #0065bd; /* 设置文字颜色 */
+    font-weight: bold; /* 文字加粗 */
+}

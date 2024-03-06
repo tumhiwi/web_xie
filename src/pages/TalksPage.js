@@ -1,7 +1,9 @@
 import React from 'react';
 import './TalksPage.css';
-
+import DDRM from'../assets/images/DDRM.jpg';
 const TalksPage = () => {
+    const pdfDownloadUrl = "https://www.mi.imati.cnr.it/ettore/attached/DDRM.pdf";
+
     return (
         <div className="talking-page">
             <h1>Professor Jingui Xie's Talks</h1>
@@ -32,22 +34,35 @@ const TalksPage = () => {
             <h2>Media</h2>
             <ul>
                 <li>
-                    <a href="https://www.future-industry.org/ddrm/"  target="_blank">Future Industry Initiative: DDRM </a>
-                    <p>A comprehensive resource on the Digitalization of Demand and Risk Management (DDRM), showcasing
-                        cutting-edge research and industry insights.</p>
+                    Jingui Xie, Xiaolan Xie:
+                    <a href="https://www.future-industry.org/ddrm/" target="_blank" rel="noopener noreferrer"> DDRM:
+                        Data-Driven Dynamic Resource Management for Random Time-Varying Demands in the Context of
+                        Covid-19 and future crises
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.chn.tum.de/stories/mindshift-online/mindshift-article/how-data-science-and-analytics-can-make-healthcare-more-resilient"  target="_blank">How
-                        Data Science and Analytics Can Make Healthcare More Resilient</a>
-                    <p>An insightful article discussing the impact of data science and analytics in enhancing the
-                        resilience of healthcare systems.</p>
+                    Jingui Xie:
+                    <a href="https://www.chn.tum.de/stories/mindshift-online/mindshift-article/how-data-science-and-analytics-can-make-healthcare-more-resilient"
+                       target="_blank" rel="noopener noreferrer"> "How Data Science and Analytics Can Make Healthcare
+                        More Resilient,"</a> TUM Campus Heilbronn October 26, 2023.
                 </li>
                 <li>
-                    <a href="https://www.mgt.tum.de/events/registration-ddrm-workshop"  target="_blank">DDRM Workshop Registration</a>
-                    <p>Register for an engaging workshop on Digitalization of Demand and Risk Management, bringing
-                        together experts from academia and industry.</p>
+                    Tang, Y., Jiang, H., Xie, J., Zheng, Z., Loke, C.Y. and Goh, B.K.:  <a
+                    href="https://www.jbs.cam.ac.uk/2023/saving-hospitals-money-by-reducing-no-shows/" target="_blank"
+                    rel="noopener noreferrer">"Saving hospitals money by reducing no-shows,"</a> Cambridge Judge Business School News
+                    & Insight, 2023.
                 </li>
             </ul>
+
+            {/* 新的部分开始 */}
+            <h2>Workshop</h2>
+            <div className="pdf-section">
+                <a href={pdfDownloadUrl} target="_blank" rel="noopener noreferrer" download>
+                    <img src={DDRM} alt="DDRM PDF Cover" className="pdf-cover-image"/>
+                    <p>DDRM: Data-Driven Dynamic Resource Management for Random Time-Varying Demands in the Context of Covid-19 and future crises (Download PDF)</p>
+                </a>
+            </div>
+            {/* 新的部分结束 */}
 
             <h2>Seminar and Invited Talks</h2>
             <ul>
@@ -149,6 +164,8 @@ const TalksPage = () => {
                     </ul>
                 </li>
             </ul>
+
+
 
         </div>
     );
