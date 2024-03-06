@@ -1,3 +1,13 @@
+# README
+所有的代码和资源图都在scr文件夹中
+1. assets/images 存放资源图片
+2. compenents 存放导航条，页脚，layout的jsx和css代码
+3. pages 存放各个网页的jsx和css代码 如要修改网页文字内容，请修改此文件夹中的jsx代码
+4. util 存放功能组件，包括手机页面适配
+5. App.css App.js index.css index.js 为全局设定
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
