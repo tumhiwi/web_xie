@@ -6,6 +6,11 @@
 4. util 存放功能组件，包括手机页面适配
 5. App.css App.js index.css index.js 为全局设定
 
+*注意
+现在项目有连2个branches
+1.master 默认分支
+2.gh-pages分支 用于构建网站 （如果要修改网站文字部分可以修改此分支）
+
 
 
 # Getting Started with Create React App
